@@ -5,56 +5,72 @@
     <link rel="stylesheet" href="../css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Acerca De</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+<div class="p-3 mb-2 bg-light text-dark">
 
-<body>
-    <!-- Header con menu de navegacion incluido, presente en todos los html -->
-    <div class="grid-container">
-        <header class="header">
-            <h1>Analog Flop</h1>
-            <hr>
-            <nav class="nav">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../pages/fotografia-analogica.html">Fotografía Analógica</a></li>
-                    <li><a href="../pages/fotografia-digital.html">Fotografía Digital</a></li>
-                    <li><a class="current-page">Acerca de</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-    <hr>
-    <main>
-        <!-- Texto que seria una presentacion o algo para contar, como es una entrega para un trabajo, aca hay parte de la cancion All Star de Smash Mouth, la de Shrek -->
-        <section class="text">
-            <p>Somebody once told me
-                The world is gonna roll me
-                I ain't the sharpest tool in the shed
-                She was looking kind of dumb
-                With her finger and her thumb
-                In the shape of an L on her forehead
+    <body>
+        <!-- Header con menu de navegacion incluido, presente en todos los html -->
+        <div class="grid-container">
+            <header class="header">
+                <p class="h1">Analog Flop</p>
+                <hr>
+                <nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/fotografia-analogica.html">Fotografía Analógica</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="../pages/fotografia-digital.html">Fotografía Digital</a>
+                        </li>
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <hr>
+        <main>
+            <!-- Texto que seria una presentacion o algo para contar, como es una entrega para un trabajo, aca hay parte de la cancion All Star de Smash Mouth, la de Shrek -->
+            <section class="text">
+                <p class="text-center text-secondary-emphasis lh-sm">
+                    Somebody once told me
+                    The world is gonna roll me
+                    I ain't the sharpest tool in the shed
+                    She was looking kind of dumb
+                    With her finger and her thumb
+                    In the shape of an L on her forehead
 
-                Well, the years start coming
-                And they don't stop coming
-                Fed to the rules and I hit the ground running
-                Didn't make sense not to live for fun
-                Your brain gets smart
-                But your head gets dumb
+                    Well, the years start coming
+                    And they don't stop coming
+                    Fed to the rules and I hit the ground running
+                    Didn't make sense not to live for fun
+                    Your brain gets smart
+                    But your head gets dumb
 
-                So much to do, so much to see
-                So what's wrong with taking the back streets?
-                You'll never know if you don't go
-                You'll never shine if you don't glow</p>
-        </section>
-        <!-- Foto del creador de esta abominacion -->
-        <section class="pictures myportrait">
-            <img src="../img/dp/DSC00017.JPG" alt="myportrait">
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Analog Flop. Todos los derechos reservados.</p>
-        <!-- Para facilitar la navegacion, se agrega un boton que sirva para ir al tope de la pagina  -->
-        <a href="#">Arriba</a>
-    </footer>
+                    So much to do, so much to see
+                    So what's wrong with taking the back streets?
+                    You'll never know if you don't go
+                    You'll never shine if you don't glow</p>
+            </section>
+            <!-- Foto del creador de esta abominacion -->
+            <section>
+                <div class="text-center">
+                    <img src="../img/dp/DSC00017.JPG" class="img-fluid img-thumbnail rounded" alt="myportrait">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="text-warning-emphasis fw-bold">&copy; 2026 Analog Flop. Todos los derechos reservados.</p>
+            <!-- Para facilitar la navegacion, se agrega un boton que sirva para ir al tope de la pagina  -->
+            <a class="link-opacity-50-hover link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="#">Arriba</a>
+        </footer>
+</div>
 </body>
