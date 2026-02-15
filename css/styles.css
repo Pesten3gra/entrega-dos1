@@ -27,14 +27,16 @@ a {
     color: var(--links-color);
 }
 
-h3 {
+/* cambie h3 por section p para mantener el estilo del header mal utilizado previamente */
+section p {
     color: var(--text-color);
     font-size: 24px;
     text-align: center;
     font-style: normal;
 }
 
-h5 {
+/* cambie el h5 por un section.text (Class) p para mantener el estilo utilizado previamente */
+section.text p {
     color: var(--text-color);
     font-size: 18px;
     text-align: center;
