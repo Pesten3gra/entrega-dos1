@@ -52,11 +52,11 @@ section.text p {
 
 /* Como la mayoria de la pagina son imagenes, en esto use la mayoria del tiempo */
 .pictures {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    align-content: flex-start;
-    flex-direction: row;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     margin-left: 20px;
     margin-right: 20px;
     max-width: 100%;
@@ -104,6 +104,7 @@ footer {
     padding: 1vh;
 }
 
+/* mq para pantallas menores a 600px */
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 1.5rem;
@@ -139,6 +140,11 @@ footer {
         border-radius: 10px;
     }
 
+    /* imagenes verticales deshabilitadas para que sea mas simple  */
+    .pictures.portraits>img {
+        display: none;
+    }
+
     header.header {
         font-size: 1rem;
         background-color: whitesmoke;
@@ -162,4 +168,5 @@ footer {
     .nav {
         grid-area: nav;
     }
+
 }
